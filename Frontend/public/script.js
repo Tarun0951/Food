@@ -32,13 +32,7 @@ window.onscroll = () =>{
 
 }
 
-document.querySelector('#search-icon').onclick = () =>{
-  document.querySelector('#search-form').classList.toggle('active');
-}
 
-document.querySelector('#close').onclick = () =>{
-  document.querySelector('#search-form').classList.remove('active');
-}
 
 var swiper = new Swiper(".home-slider", {
   spaceBetween: 30,
@@ -56,9 +50,9 @@ var swiper = new Swiper(".home-slider", {
 
 var swiper = new Swiper(".review-slider", {
   spaceBetween: 20,
-  centeredSlides: true,
+  centeredSlides:true,
   autoplay: {
-    delay: 7500,
+    delay: 10,
     disableOnInteraction: false,
   },
   loop:true,
